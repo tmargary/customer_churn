@@ -18,8 +18,10 @@ app = Flask(__name__)
 def predict():
     #response = json.dumps({'response': 'yahhhh!'})
     #return response, 200
-    request_json = request.get_json()
-    x = request_json['input']
+    
+    #request_json = request.get_json()
+    #x = request_json['input']
+    x = data_in
     x_in = np.array(x).reshape(1,-1)
     model = load_models()
     prediction = model.predict(x_in)[0]
