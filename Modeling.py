@@ -15,9 +15,10 @@ df = pd.read_csv('./Telecom_customer churn cleaned.csv')
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-df.head()
 
 df.shape
+
+df = df.iloc[:80, 40:]
 
 #df = df.iloc[:80,40:100].drop(['Customer_ID'], axis = 1)
 df = df.drop(['Customer_ID'], axis = 1)
