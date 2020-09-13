@@ -17,3 +17,9 @@ I made the following changes and created the following variables:
 
 After cleaning the data, as the dataset has too many columns (100 before getting the dummy variables) I used Principal component analysis for selecting the best 3 columns (`'totmou', 'totcalls', 'totrev'`) for our model.
 Next, I ran `XGBoost` algorithm with `GridSearchCV` in order to find the best hyperparameters.
+
+### Resources
+
+Python Version: 3.8
+Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly, xgboost, pickle
+Video tutorial: https://www.youtube.com/watch?v=nUOh_lDMHOU
