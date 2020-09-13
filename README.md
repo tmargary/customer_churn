@@ -20,6 +20,6 @@ Next, I ran `XGBoost` algorithm with `GridSearchCV` in order to find the best hy
 
 ### Resources
 
-Python Version: 3.8
-Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly, xgboost, pickle
-Video tutorial: https://www.youtube.com/watch?v=nUOh_lDMHOU
+- Python Version: 3.8
+- Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly, xgboost, pickle
+- Video tutorial: https://www.youtube.com/watch?v=nUOh_lDMHOU
