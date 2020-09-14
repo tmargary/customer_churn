@@ -18,6 +18,10 @@ I made the following changes and created the following variables:
 After cleaning the data, as the dataset has too many columns (100 before getting the dummy variables) I used Principal component analysis for selecting the best 3 columns (`'totmou', 'totcalls', 'totrev'`) for our model.
 Next, I ran `XGBoost` algorithm with `GridSearchCV` in order to find the best hyperparameters.
 
+### Results
+
+The accuracy scores of the classifiers (Logistic Regression, k-nearest neighbors, and XGBoost) are a little greater than 50%. The project is still in progress.
+
 ### Resources
 
 - Python Version: 3.8
