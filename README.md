@@ -4,7 +4,7 @@ Hero House AI Incubation Program
 - Build model to predict customer churn.
 - Use Principal component analysis to understand which features are the most important.
 - Optimized XGBoost using GridsearchCV to reach the best model.
-- Deploy the model via FlaskAPI
+- Deploy the model via FlaskAPI.
 
 ### Data Cleaning
 
